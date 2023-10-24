@@ -76,6 +76,10 @@ export const ProductAction= styled(Box)((theme)=>({
     display:'flex',
     gap:'10px',
     font:'1rem',
+    "& button:hover":{
+      background:'lightgreen',
+      cursor:'pointer'
+    },
     "& button":{
         background:'#165315',
         width:'137px',
