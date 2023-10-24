@@ -66,6 +66,9 @@ export const SidePanel = styled(Box)((theme)=>({
        
     },
 }))
+export const MainBody = styled(Box)((theme)=>({
+    
+}))
 export const PageNavigation = styled(Box)((theme)=>({
     display:'flex',
     flexDirection:"row",

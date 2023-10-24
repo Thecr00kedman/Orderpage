@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import OrderItem from "../Components/OrderItem/OrderItem";
 import Product1 from '../assets/Product1.jpeg'
-import { SidePanel,SideHeader,PageNavigation } from "./styles";
+import { SidePanel,SideHeader,PageNavigation,MainBody } from "./styles";
 import Products from "../Components/Products/Products";
 import { OrderSlide,SideContainer } from "./styles";
 import {Box} from "@mui/material";
@@ -36,6 +36,7 @@ return(
     <>
     <Banner />
     <Navbar />
+    <MainBody>
     <Breadcrumbs className="navigation" separator={<ArrowForwardIosIcon sx={{fontSize:"small"}}/>} aria-label="breadcrumb">
     <Link>Home</Link>
     <Link>Profile</Link>
@@ -81,6 +82,7 @@ return(
     <PageNavigation><Box>1</Box><Box>2</Box><Box>3</Box></PageNavigation>
     <Footer/> 
        
+    </MainBody>
     </>
     )
 }
