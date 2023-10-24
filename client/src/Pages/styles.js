@@ -61,3 +61,28 @@ export const SidePanel = styled(Box)((theme)=>({
         fontSize:'20px'
     }
 }))
+export const PageNavigation = styled(Box)((theme)=>({
+    display:'flex',
+    flexDirection:"row",
+    justifyContent:'center',
+    gap:'5px',
+    "& div:nth-child(1)":{
+        border:'1px solid black',
+        padding:'3px 11px',
+        background:"black",
+        borderRadius:"50%",
+        color:'white',
+        fontSize:"13px",
+
+    },
+    "& div":{
+        border:'1px solid black',
+        padding:'0px 8px',
+        borderRadius:"50%",
+        color:'black',
+        fontSize:"13px",
+
+    }
+}))
+
+

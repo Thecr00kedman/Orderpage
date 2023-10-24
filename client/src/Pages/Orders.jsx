@@ -1,11 +1,11 @@
 import Navbar from "../Components/Navbar"
 import Banner from "../Components/Banner"
-import {Breadcrumbs } from "@mui/material"
+import {Breadcrumbs,Typography } from "@mui/material"
 import { Link } from "react-router-dom"
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import OrderItem from "../Components/OrderItem/OrderItem";
 import Product1 from '../assets/Product1.jpeg'
-import { SidePanel,SideHeader } from "./styles";
+import { SidePanel,SideHeader,PageNavigation } from "./styles";
 import Products from "../Components/Products/Products";
 import { OrderSlide,SideContainer } from "./styles";
 import {Box} from "@mui/material";
@@ -78,6 +78,7 @@ return(
        <Box><OrderItem/></Box>
        <Box><Products/></Box>
     </OrderSlide>
+    <PageNavigation><Box>1</Box><Box>2</Box><Box>3</Box></PageNavigation>
     <Footer/>    
     </>
     )
