@@ -79,7 +79,8 @@ return(
        <Box><Products/></Box>
     </OrderSlide>
     <PageNavigation><Box>1</Box><Box>2</Box><Box>3</Box></PageNavigation>
-    <Footer/>    
+    <Footer/> 
+       
     </>
     )
 }

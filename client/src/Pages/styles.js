@@ -49,7 +49,11 @@ export const SideHeader = styled(Box)((theme)=>({
         alignItems:'flex-start',
         padding:'0.5rem',
         color:'white',
-    }
+    },
+    "& a:hover":{
+        color:'blue',
+        
+     }
 }))
 
 export const SidePanel = styled(Box)((theme)=>({
@@ -58,13 +62,15 @@ export const SidePanel = styled(Box)((theme)=>({
         display:'flex',
         alignItems:'center',
         color:"black",
-        fontSize:'20px'
-    }
+        fontSize:'20px',
+       
+    },
 }))
 export const PageNavigation = styled(Box)((theme)=>({
     display:'flex',
     flexDirection:"row",
     justifyContent:'center',
+    padding:'1rem',
     gap:'5px',
     "& div:nth-child(1)":{
         border:'1px solid black',
