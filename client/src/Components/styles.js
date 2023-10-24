@@ -93,7 +93,8 @@ export const BannerHeading=styled(Box)((theme)=>({
     },
     "@media only screen and (max-width: 520px)":{
         "& div> p":{
-          fontSize:'8px'
+          fontSize:'8px',
+          padding:'0.3rem'
         }
       },
 
