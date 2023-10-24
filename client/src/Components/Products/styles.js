@@ -14,6 +14,12 @@ export const ProductMedia= styled(Box)((theme)=>({
      display:'flex',
      flexDirection:'column',
      border:"1px solid #0000004D",
+     "& button":{
+        background:"green"
+     },
+     "& button:hover":{
+        background:"green"
+     }
 
 }))
 export const ProductContent= styled(Box)((theme)=>({
