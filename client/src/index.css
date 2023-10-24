@@ -1,0 +1,36 @@
+:root {
+  font-family: Poppins Light,sans-serif;
+  
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.navigation a{
+  color: #838383;
+  font-family: "Poppins";
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+.mobile-navigation{
+  transition: all 0.01s ease-in;
+}
+.animation{
+  animation-name: toggle;
+  animation-duration:0.3s;
+  animation-iteration-count: 1; 
+  }
+ @keyframes toggle{
+  0%{transform:translateX(-40vw)};
+  100%{transform:translateX(60vw);}
+ } 
+  .navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+  }
+ 
