@@ -90,8 +90,12 @@ export const BannerHeading=styled(Box)((theme)=>({
     "& div":{
         textAlign:'right',
         flex:1,
-        
-    }
+    },
+    "@media only screen and (max-width: 520px)":{
+        "& div> p":{
+          fontSize:'8px'
+        }
+      },
 
 }))
 export const MobileNav= styled(Box)((theme)=>({
